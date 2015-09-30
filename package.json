@@ -1,0 +1,37 @@
+{
+  "name": "dong-doc",
+  "version": "0.0.0",
+  "description": "An documentation generator for JavaScript (via JSDoc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "documentation",
+    "jsdoc"
+  ],
+  "author": [
+    {
+      "name": "lyfei",
+      "email": "lyfei022@qq.com"
+    },
+    {
+      "name": "crossjs",
+      "email": "liwenfu@crossjs.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/crossjs/dong-doc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "dong-queue": "^0.1.0",
+    "extend": "^2.0.0",
+    "gulp-jsdoc": "^0.1.4",
+    "shelljs": "^0.5.0",
+    "spm-log": "^0.1.2",
+    "vinyl-fs": "^1.0.0"
+  }
+}
