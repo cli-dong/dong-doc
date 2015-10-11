@@ -29,7 +29,7 @@ module.exports = {
   }, {
     name: 'open',
     alias: 'o',
-    description: 'Web 服务端口',
+    description: '服务启动后，自动在浏览器打开',
     defaults: false
   }, {
     name: 'release',
