@@ -8,9 +8,7 @@
   },
   "plugins": ["plugins/markdown"],
   "opts": {
-    "template": "./minami",
     "encoding": "utf8",
-    "destination": "./doc",
     "recurse": true
   },
   "templates": {

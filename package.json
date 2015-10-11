@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crossjs/dong-doc.git"
+  },
   "keywords": [
     "documentation",
     "jsdoc"
@@ -26,12 +30,23 @@
       "url": "https://github.com/crossjs/dong-doc/blob/master/LICENSE-MIT"
     }
   ],
+  "bugs": {
+    "url": "https://github.com/crossjs/dong-doc/issues"
+  },
+  "homepage": "https://github.com/crossjs/dong-doc",
   "dependencies": {
-    "dong-queue": "^0.1.0",
-    "extend": "^2.0.0",
-    "gulp-jsdoc": "^0.1.4",
+    "dong-queue": "^0.1.1",
+    "finalhandler": "^0.4.0",
+    "jsdoc": "^3.3.3",
+    "morgan": "^1.6.1",
+    "open": "0.0.5",
+    "rimraf": "^2.4.3",
+    "serve-favicon": "^2.3.0",
+    "serve-index": "^1.7.2",
+    "serve-static": "^1.10.0",
     "shelljs": "^0.5.0",
     "spm-log": "^0.1.2",
-    "vinyl-fs": "^1.0.0"
+    "vinyl-fs": "^1.0.0",
+    "watch": "^0.16.0"
   }
 }
