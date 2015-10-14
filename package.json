@@ -1,6 +1,6 @@
 {
   "name": "dong-doc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An documentation generator for JavaScript (via JSDoc)",
   "main": "index.js",
   "scripts": {
